@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+/* Header section */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    /* min-height: 11vh; */
+    height: 80px;
+    padding: 0 40px;
+    position: fixed;
+    box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+    z-index: 100;
+    background-color:white;
+}
+/* logo */
+#logo-menu{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+#head-logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(201, 118, 18);
+}
+#msg-icn{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#logo-menu, #msg-icn{
+    font-size: 25px;
+    cursor: pointer;
+}
+#profile{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#search input{
+    width: 250px;
+    height: 35px;
+    border-radius: 50px 0 0 50px;
+    padding: 0 20px;
+    font-size: 15px;
+    /* outline: none; */
+    border: none;
+    background-color: #DADADA;
+}
+#srbtn{
+    width: 50px;
+    height: 35px;
+    padding: 9px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    background-color: #A5D8DD;
+}
+
+
+nav h1{
+    background-color: #0d95bb;
+    height: 50px;
+    padding: 10px;
+}
+
+/* Main container */
+
+#main-container{
+    display: flex;
+    z-index: 1;
+    /* width: 100vw; */
+}
+/* side bar */
+#side{
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+}
+nav{
+    /* width: 250px; */
+    width: 16vw;
+    box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0 20px 15px;
+    min-height: 89vh;
+    background-color: #CED2CC;
+}
+nav :hover{
+    background-color: white;
+    height: 50px;
+    padding: 10px 0 0 3px;
+    border-radius: 20px 0 0 20px; 
+}
+
+h1,h2, a{
+    text-decoration: none;
+    cursor: pointer;
+}
+#log-out{
+    margin-top: 550px;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+
+#icons{
+    padding: 0 10px 0 0;
+    color: black;
+}
+
+/* Main */
+
+#main{
+    /* margin-top: 5.2%; */
+    margin-top: 80px;
+    margin-left: 245px;
+   min-height: 89vh;
+   width: 84vw;
+   background-color: #A5D8DD;
+    
+}
+
+/* Display */
+
+#display{
+    font-size: 30px;
+    padding-top: 20px;
+}
+#display h1{
+    background:#3333;
+    text-align: center;
+}
+#data-diplay{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+
+/* Insert section */
+#insert{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #888;
+    width: 600px;
+    border-radius: 30px;
+    margin: 30px 0 0 270px;
+}
+#add input{
+    height: 40px;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 20px 0 20px;
+}
+#add{
+    padding-top: 20px;
+}
+.insert-btn{
+    margin: 30px 0 20px 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+#insert h1{
+    padding-top: 10px;
+}
+
+
+
+/* Edit section */
+
+#edit{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#edit h1{
+    background: #5555;
+}
+#edit-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#ed{
+    color: black;
+}
+#edit-2{
+    width: 500px;
+    height: 350px;
+    /* background: #F1F1F1; */
+    margin-top: 50px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#edit-2 input{
+    margin-left: 100px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+#edit-2 button{
+    width: 150px;
+    height: 50px;
+    margin-left: 200px;
+    background-color: #888;
+    font-size: 20px;
+}
+
+/* Delete section */
+
+#dicon{
+    color: black;
+}
+#delete{
+    font-size: 30px;
+    text-align: center;
+}
+#delete h1{
+    padding-top: 20px;
+}
+#d1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Search section */
+
+#search-sec{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#search-sec h1{
+    background-color: #5555;
+}
+#search-cb{
+    margin-top: 20px;
+    background-color: #d3a920;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#search-cb input{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 50px;
+    margin: 10px 0 0 420px;
+    padding-left: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+#s1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+
+
+/* Dashboard */
+
+#cars-box{
+    padding: 50px 0 0 0px; 
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 250px;
+    height: 100px;
+    background-color: #2fd512;
+    color: white;
+    box-shadow: 0px 0px 4px 5px rgba(189, 197, 223, 0.825);
+}
+#cars-box i{
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    margin-right: 20px;
+}
+#total,#book,#sell h2{
+    padding: 10px 0 0 30px;
+}
+#alb{
+    padding: 10px 0 0 20px;
+}
+#total h3{
+    padding-left: 30px;
+}
+#total{
+    background-color:#3a63e9c0 ;
+}
+#alb h3{
+    padding-left: 70px;
+}
+#book h3{
+    padding-left: 50px;
+}
+#book{
+    background-color: #23de9f;
+}
+#sell h3{
+    padding-left: 70px;
+}
+#sell{
+    background-color: #d71414af;
+}
+
+
+
+
+#cars-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 0 0 60px;
+}
+#cimg{
+    background-color: #abd512;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+#cimg img{
+    padding-top: 20px;
+}
+#cimg h4{
+    display: flex;
+}
+#l{
+    padding-left: 180px;
+}
+#cimg-1{
+    background-color: #1c9ade8e;
+}
+#cimg-2{
+    background-color: #c3d0c0
+}
+#cimg-3{
+    background-color: #0b9696f4
+}
+
+
+#chart{
+    display: flex;
+    padding-top: 50px;
+    
+}
+#chart img{
+    width: 630px;
+    margin: 3px;
+}
